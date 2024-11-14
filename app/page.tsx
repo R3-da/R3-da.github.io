@@ -65,7 +65,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl"></h1>
+            <h1 className="font-serif text-xl"></h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -75,7 +75,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r font-sans from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,13 +87,13 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-teal-600 font-serif dark:text-teal-400 md:text-6xl">
               Haddan Reda
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+            <h3 className="text-2xl py-2 font-serif dark:text-white md:text-3xl">
               Mobile/Web Developer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-5 leading-8 font-sans text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Connect with me down below!<FaHandPointDown className="inline-block ml-2 text-teal-600" />
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -129,8 +129,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Bio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-3xl py-1 font-serif dark:text-white ">Bio</h3>
+            <p className="text-md py-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
               👨‍💻 Android & Web Developer | Open-Source Enthusiast,
               🚀 Passionate Software Developer with expertise in Android (Kotlin, React Native) and web development (HTML, CSS, JS, SQL, PHP, React.js, Angular).
               Basic knowledge in DevOps (Docker, Kubernetes, AWS, Jenkins, CI/CD).
@@ -143,11 +143,11 @@ export default function Home() {
               and contributions to open source initiatives, 
               I am dedicated to delivering seamless user experiences.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
             Beyond coding, my passion extends to designing immersive soundscapes 
             that enhance the overall user engagement. 
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
             Unlock the full potential of your projects 
             as we work together to bring them to life with expertise and dedication.
             </p>
@@ -155,45 +155,45 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={images.code} alt="" width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
+              <h3 className="text-lg font-sans font-medium pt-8 pb-2 ">
                 Android/Web Dev
               </h3>
-              <p className="py-2">
+              <p className="py-2 font-sans">
                 Building clean architecture android Apps and Websites, and making ideas come to life.
               </p>
-              <h4 className="py-4 text-teal-600">Technologies I Use</h4>
-              <p className="text-gray-800 py-1">Native Android Dev</p>
-              <p className="text-gray-800 py-1">React Native</p>
-              <p className="text-gray-800 py-1">React JS</p>
+              <h4 className="py-4 font-sans text-teal-600">Technologies I Use</h4>
+              <p className="font-mono text-gray-800 py-1">Native Android Dev</p>
+              <p className="font-mono text-gray-800 py-1">React Native</p>
+              <p className="font-mono text-gray-800 py-1">React JS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={images.design} alt="" width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
+              <h3 className="text-lg font-sans font-medium pt-8 pb-2  ">
                 UI/UX
               </h3>
-              <p className="py-2">
+              <p className="py-2 font-sans">
                 Creating elegant designs suited for each use case following core
                 design theory.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <h4 className="py-4 font-sans text-teal-600">Design Tools I Use</h4>
+              <p className="font-mono text-gray-800 py-1">Photoshop</p>
+              <p className="font-mono text-gray-800 py-1">Figma</p>
+              <p className="font-mono text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={images.consulting} alt="" width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Sound Design</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-sans font-medium pt-8 pb-2 ">Sound Design</h3>
+              <p className="py-2 font-sans">
                 Sound design and music production.
               </p>
-              <h4 className="py-4 text-teal-600">DAW&apos;s I Use</h4>
-              <p className="text-gray-800 py-1">FL Studio</p>
+              <h4 className="py-4 font-sans text-teal-600">DAW&apos;s I Use</h4>
+              <p className="font-mono text-gray-800 py-1">FL Studio</p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+            <h3 className="text-3xl py-1 font-serif dark:text-white ">Portfolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             {overlayImages.map((overlayImage, index) => (
@@ -225,7 +225,7 @@ export default function Home() {
                         );
                       })}
                     </div>
-                    <p className="text-white text-sm mt-2 text-center font-bold">{overlayImage.description}</p> {/* Added description */}
+                    <p className="font-sans text-white text-lg mt-2 text-center font-medium">{overlayImage.description}</p> {/* Added description */}
                   </div>
                 </div>
               </div>

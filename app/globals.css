@@ -1,8 +1,7 @@
-/*
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700;800;900&display=swap");
-*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,10 +21,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-@font-face {
-  font-family: "burtons";
-  src: url("../public/Burtons.otf");
 }
 
 .group:hover .rounded-lg {

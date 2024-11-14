@@ -9,8 +9,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
-        poppins: ["Poppins", "sans-serif"],
         sans: ['Montserrat', 'sans-serif'],
         serif: ['Bitter', 'serif'],
         mono: ['Roboto Mono', 'mono'],

@@ -1,5 +1,3 @@
-// app/layout.tsx
-
 import './globals.css'; // Import global CSS
 
 export default function Layout({ children }: { children: React.ReactNode }) {
