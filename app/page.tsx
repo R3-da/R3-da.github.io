@@ -1,24 +1,29 @@
+"use client";
+
 import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsDownload, BsStackOverflow, BsFillMoonStarsFill } from 'react-icons/bs';
 import { FaHandPointDown, FaGooglePlay } from "react-icons/fa";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
+  const images = {
+    deved: "/dev-ed-wave.png",
+    code: "/code.png",
+    design: "/design.png",
+    consulting: "/consulting.png",
+    web1: "/web1.png",
+    web2: "/web2.png",
+    web3: "/web3.png",
+    web4: "/web4.png",
+  };
+
   const overlayImages = [
     {
-      imageUrl: web1,
+      imageUrl: images.web1,
       icons: [
         { icon: AiFillGithub, link: "https://github.com/R3-da/Insectify" },
         { icon: FaGooglePlay, link: "https://play.google.com/store/apps/details?id=com.reda.insectify" },
@@ -26,7 +31,7 @@ export default function Home() {
       description: "Insectify : Identify Beetles Using A.I",
     },
     {
-      imageUrl: web2,
+      imageUrl: images.web2,
       icons: [
         { icon: AiFillGithub, link: "https://github.com/R3-da/Daytics" },
         { icon: BsDownload, link: "/daytics.apk" },
@@ -34,7 +39,7 @@ export default function Home() {
       description: "Daytics : Plan & Keep Track Of Your Day",
     },
     {
-      imageUrl: web3,
+      imageUrl: images.web3,
       icons: [
         { icon: AiFillGithub, link: "https://github.com/R3-da/S.T.S_v6" },
         { icon: BsDownload, link: "/sts.apk" },
@@ -42,7 +47,7 @@ export default function Home() {
       description: "ShapeSwipe :  Fidget & Play With Shapes",
     },
     {
-      imageUrl: web4,
+      imageUrl: images.web4,
       icons: [
         { icon: AiFillGithub, link: "https://github.com/R3-da/JamsterScanner" },
       ],
@@ -118,7 +123,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} alt="" layout="fill" objectFit="cover" />
+              <Image src={images.deved} alt="" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -149,7 +154,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} alt="" width={100} height={100} />
+              <Image src={images.code} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Android/Web Dev
               </h3>
@@ -162,7 +167,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">React JS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} alt="" width={100} height={100} />
+              <Image src={images.design} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 UI/UX
               </h3>
@@ -176,7 +181,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} alt="" width={100} height={100} />
+              <Image src={images.consulting} alt="" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Sound Design</h3>
               <p className="py-2">
                 Sound design and music production.
