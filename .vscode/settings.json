@@ -1,6 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "eslint.alwaysShowStatus": true,
     "prettier.requireConfig": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "always"
