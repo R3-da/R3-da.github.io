@@ -1,6 +1,6 @@
-const home = process.env.NEXT_PUBLIC_APP_URL;
+// const home = process.env.NEXT_PUBLIC_APP_URL;
 
-export default async function sitemap() {
+/* export default async function sitemap() {
 	const staticRoutes = [
 		'',
 		'/',
@@ -20,3 +20,4 @@ export default async function sitemap() {
 
 	return [, ...staticRoutes];
 }
+ */
