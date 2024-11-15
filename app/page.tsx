@@ -154,7 +154,9 @@ export default function Home() {
 				</section>
 				<section>
 					<div className="rounded-lg p-8">
-						<h3 className="text-4xl pb-8 font-serif dark:text-white">Bio:</h3>
+						<h3 className="text-3xl sm:text-4xl pb-8 font-serif dark:text-white">
+							Bio:
+						</h3>
 						<div className="flex flex-col gap-4">
 							<p className="text-lg leading-8 font-sans text-gray-800 dark:text-gray-200">
 								👨‍💻 Android & Web Developer | Open-Source Enthusiast, 🚀
@@ -182,7 +184,7 @@ export default function Home() {
 					</div>
 					<div className="rounded-lg p-8">
 						<div>
-							<h3 className="text-4xl pb-8 font-serif dark:text-white ">
+							<h3 className="text-3xl sm:text-4xl pb-8 font-serif dark:text-white ">
 								Skills
 							</h3>
 						</div>
@@ -256,7 +258,7 @@ export default function Home() {
 				<section>
 					<div className="rounded-lg p-10">
 						<div>
-							<h3 className="text-4xl pb-8 font-serif dark:text-white ">
+							<h3 className="text-3xl sm:text-4xl pb-8 font-serif dark:text-white ">
 								Portfolio
 							</h3>
 						</div>
