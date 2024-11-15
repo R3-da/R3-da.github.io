@@ -7,12 +7,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
 			<body>
-				<Providers>
-					{/* <Nav /> */}
-					<main>
-						<div>{children}</div>
-					</main>
-				</Providers>
+				{/* <Providers> */}
+				{/* <Nav /> */}
+				<main>
+					<div>{children}</div>
+				</main>
+				{/* </Providers> */}
 			</body>
 			{/* <Footer /> */}
 		</html>
