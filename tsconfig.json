@@ -22,7 +22,11 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "contentlayer/generated": ["./.contentlayer/generated"],
+      "@/*": ["./*"]
+    }
   },
   "include": [
     "**/*.ts",
@@ -30,7 +34,8 @@
     "app/_app.tsx",
     "app/_document.tsx",
     "next-env.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".contentlayer/generated"
   ],
   "exclude": [
     "node_modules"
