@@ -154,34 +154,35 @@ export default function Home() {
 				</section>
 				<section>
 					<div className="rounded-lg p-8">
-						<h3 className="text-4xl pb-4 font-serif dark:text-white ">Bio</h3>
-						<p className="text-lg pb-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
-							👨‍💻 Android & Web Developer | Open-Source Enthusiast, 🚀 Passionate
-							Software Developer with expertise in Android (Kotlin, React
-							Native) and web development (HTML, CSS, JS, SQL, PHP, React.js,
-							Angular). Basic knowledge in DevOps (Docker, Kubernetes, AWS,
-							Jenkins, CI/CD). 🌱 Actively contributing to open-source projects
-							on GitHub. 🛠️ Eager to make an impact in the tech industry. 🤝
-							Let's connect!.
-							<span className="text-teal-500"> </span>
-							<span className="text-teal-500"> </span>
-							<br />
-							With a portfolio featuring successful freelance projects and
-							contributions to open source initiatives, I am dedicated to
-							delivering seamless user experiences.
-						</p>
-						<p className="text-md py-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
-							Beyond coding, my passion extends to designing immersive
-							soundscapes that enhance the overall user engagement.
-						</p>
-						<p className="text-md py-2 leading-8 font-sans text-gray-800 dark:text-gray-200">
-							Unlock the full potential of your projects as we work together to
-							bring them to life with expertise and dedication.
-						</p>
+						<h3 className="text-4xl pb-8 font-serif dark:text-white">Bio</h3>
+						<div className="flex flex-col gap-4">
+							<p className="text-lg leading-8 font-sans text-gray-800 dark:text-gray-200">
+								👨‍💻 Android & Web Developer | Open-Source Enthusiast, 🚀
+								Passionate Software Developer with expertise in Android (Kotlin,
+								React Native) and web development (HTML, CSS, JS, SQL, PHP,
+								React.js, Angular). Basic knowledge in DevOps (Docker,
+								Kubernetes, AWS, Jenkins, CI/CD). 🌱 Actively contributing to
+								open-source projects on GitHub. 🛠️ Eager to make an impact in
+								the tech industry. 🤝 Let's connect!.
+							</p>
+							<p className="text-lg leading-8 font-sans text-gray-800 dark:text-gray-200">
+								With a portfolio featuring successful freelance projects and
+								contributions to open source initiatives, I am dedicated to
+								delivering seamless user experiences.
+							</p>
+							<p className="text-md leading-8 font-sans text-gray-800 dark:text-gray-200">
+								Beyond coding, my passion extends to designing immersive
+								soundscapes that enhance the overall user engagement.
+							</p>
+							<p className="text-md leading-8 font-sans text-gray-800 dark:text-gray-200">
+								Unlock the full potential of your projects as we work together
+								to bring them to life with expertise and dedication.
+							</p>
+						</div>
 					</div>
 					<div className="rounded-lg p-8">
 						<div>
-							<h3 className="text-4xl pb-4 font-serif dark:text-white ">
+							<h3 className="text-4xl pb-8 font-serif dark:text-white ">
 								Skills
 							</h3>
 						</div>
@@ -255,14 +256,14 @@ export default function Home() {
 				<section>
 					<div className="rounded-lg p-10">
 						<div>
-							<h3 className="text-4xl py-1 font-serif dark:text-white ">
+							<h3 className="text-4xl pb-8 font-serif dark:text-white ">
 								Portfolio
 							</h3>
 						</div>
-						<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+						<div className="flex flex-col gap-8 md:grid md:grid-cols-2 lg:flex lg:flex-row lg:gap-6">
 							{overlayImages.map((overlayImage, index) => (
-								<div className="basis-1/3 flex-1 relative" key={index}>
-									<div className="group rounded-lg overflow-hidden">
+								<div className="flex-1 relative" key={index}>
+									<div className="rounded-lg overflow-hidden">
 										<Image
 											className="rounded-lg object-cover"
 											width={1000}
@@ -291,8 +292,7 @@ export default function Home() {
 											</div>
 											<p className="font-sans text-white text-lg mt-2 text-center font-medium">
 												{overlayImage.description}
-											</p>{' '}
-											{/* Added description */}
+											</p>
 										</div>
 									</div>
 								</div>
