@@ -154,7 +154,7 @@ export default function Home() {
 				</section>
 				<section>
 					<div className="rounded-lg p-8">
-						<h3 className="text-4xl pb-8 font-serif dark:text-white">Bio</h3>
+						<h3 className="text-4xl pb-8 font-serif dark:text-white">Bio:</h3>
 						<div className="flex flex-col gap-4">
 							<p className="text-lg leading-8 font-sans text-gray-800 dark:text-gray-200">
 								👨‍💻 Android & Web Developer | Open-Source Enthusiast, 🚀
@@ -191,7 +191,7 @@ export default function Home() {
 								<div className="flex flex-col justify-center items-center">
 									<Image src={images.code} alt="" width={100} height={100} />
 									<h3 className="text-lg font-sans dark:text-gray-800 font-medium pt-8 pb-2">
-										Android/Web Dev
+										ANDROID/WEB DEV
 									</h3>
 								</div>
 								<p className="font-sans dark:text-gray-800 sm:block hidden">
@@ -238,7 +238,7 @@ export default function Home() {
 										height={100}
 									/>
 									<h3 className="text-lg font-sans dark:text-gray-800 font-medium pt-8 pb-2">
-										Sound Design
+										SOUND DESIGN
 									</h3>
 								</div>
 
@@ -260,7 +260,7 @@ export default function Home() {
 								Portfolio
 							</h3>
 						</div>
-						<div className="flex flex-col gap-8 md:grid md:grid-cols-2 lg:flex lg:flex-row lg:gap-6">
+						<div className="flex flex-col gap-8  sm:grid sm:grid-cols-2 lg:flex lg:flex-row lg:gap-6">
 							{overlayImages.map((overlayImage, index) => (
 								<div className="flex-1 relative" key={index}>
 									<div className="rounded-lg overflow-hidden">
