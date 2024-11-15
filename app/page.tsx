@@ -103,10 +103,6 @@ export default function Home() {
 							<h3 className="text-3xl py-2 font-serif dark:text-white md:text-4xl">
 								Mobile/Web Developer.
 							</h3>
-							<p className="text-xl py-5 leading-8 font-sans text-gray-800 dark:text-gray-200 max-w-2xl mx-auto md:text-2xl">
-								Connect with me down below!
-								<FaHandPointDown className="inline-block ml-2 text-teal-600" />
-							</p>
 							<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
 								<a
 									href="https://www.linkedin.com/in/r-h-7zh"
