@@ -189,18 +189,28 @@ export default function Home() {
 							</h3>
 						</div>
 						<div className="flex flex-col lg:flex-row gap-8">
-							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white flex lg:flex-col items-center justify-between flex-1 gap-10">
-								<div className="flex flex-col justify-center items-center">
-									<Image src={images.code} alt="" width={100} height={100} />
-									<h3 className="text-lg font-sans dark:text-gray-800 font-medium pt-8 pb-2">
+							{/* First Item */}
+							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white grid lg:grid-rows-3 gap-10 flex-1">
+								{/* Left part */}
+								<div className="flex flex-col justify-center items-center flex-1">
+									<Image
+										src={images.code}
+										alt=""
+										width={100}
+										height={100}
+										className="object-contain w-auto h-auto"
+									/>
+									<h3 className="text-lg font-sans dark:text-gray-800 font-medium">
 										ANDROID/WEB DEV
 									</h3>
 								</div>
-								<p className="font-sans dark:text-gray-800 sm:block hidden">
+								{/* Middle part (hidden content) */}
+								<p className="font-sans dark:text-gray-800 sm:block hidden flex-1">
 									Building clean architecture android Apps and Websites, and
 									making ideas come to life.
 								</p>
-								<div>
+								{/* Right part */}
+								<div className="flex flex-col items-center flex-1">
 									<h4 className="font-sans text-teal-600">
 										Technologies I Use
 									</h4>
@@ -211,18 +221,29 @@ export default function Home() {
 									<p className="font-mono text-gray-800 py-1">React JS</p>
 								</div>
 							</div>
-							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white flex lg:flex-col items-center justify-between flex-1 gap-10">
+
+							{/* Second Item */}
+							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white grid lg:grid-rows-3 gap-10 flex-1">
+								{/* Row 1 */}
 								<div className="flex flex-col justify-center items-center">
-									<Image src={images.design} alt="" width={100} height={100} />
-									<h3 className="text-lg font-sans dark:text-gray-800 font-medium pt-8 pb-2">
+									<Image
+										src={images.design}
+										alt=""
+										width={100}
+										height={100}
+										className="object-contain w-auto h-auto"
+									/>
+									<h3 className="text-lg font-sans dark:text-gray-800 font-medium">
 										UI/UX
 									</h3>
 								</div>
-								<p className="font-sans dark:text-gray-800  sm:block hidden">
+								{/* Row 2 */}
+								<p className="font-sans dark:text-gray-800 sm:block hidden">
 									Creating elegant designs suited for each use case following
 									core design theory.
 								</p>
-								<div>
+								{/* Row 3 */}
+								<div className="flex flex-col items-center">
 									<h4 className="font-sans text-teal-600">
 										Design Tools I Use
 									</h4>
@@ -231,23 +252,30 @@ export default function Home() {
 									<p className="font-mono dark:text-gray-800 py-1">Adobe XD</p>
 								</div>
 							</div>
-							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white flex lg:flex-col items-center justify-between flex-1 gap-10">
+
+							{/* Third Item */}
+							<div className="text-center shadow-lg p-10 rounded-xl dark:bg-white grid lg:grid-rows-3 gap-10 flex-1">
+								{/* Column 1 */}
 								<div className="flex flex-col justify-center items-center">
 									<Image
 										src={images.consulting}
 										alt=""
 										width={100}
 										height={100}
+										className="object-contain w-auto h-auto"
 									/>
-									<h3 className="text-lg font-sans dark:text-gray-800 font-medium pt-8 pb-2">
+									<h3 className="text-lg font-sans dark:text-gray-800 font-medium">
 										SOUND DESIGN
 									</h3>
 								</div>
 
-								<p className="font-sans dark:text-gray-800  sm:block hidden">
+								{/* Column 2 */}
+								<p className="font-sans dark:text-gray-800 sm:block hidden">
 									Sound design and music production.
 								</p>
-								<div>
+
+								{/* Column 3 */}
+								<div className="flex flex-col items-center">
 									<h4 className="font-sans text-teal-600">DAW&apos;s I Use</h4>
 									<p className="font-mono text-gray-800 py-1">FL Studio</p>
 								</div>
