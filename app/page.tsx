@@ -302,7 +302,7 @@ export default function Home() {
 											src={overlayImage.imageUrl}
 											alt={`Image ${index + 1}`}
 										/>
-										<div className="overlay-icons absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+										<div className="overlay-icons rounded-lg absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 p-4 bg-black hover:bg-opacity-80">
 											<div className="flex items-center justify-center flex-wrap">
 												{overlayImage.icons.map((item, iconIndex) => {
 													const IconComponent = item.icon;
@@ -313,7 +313,7 @@ export default function Home() {
 															download={item.link.endsWith('.apk')} // Add the download attribute conditionally for .apk links
 															target="_blank"
 															rel="noopener noreferrer"
-															className="text-gray-100 text-4xl m-2 transition-colors duration-300 hover:text-white"
+															className="text-white text-opacity-70 text-4xl m-2 transition-colors duration-300 hover:text-opacity-100"
 														>
 															<IconComponent />
 														</a>
