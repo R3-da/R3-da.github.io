@@ -142,7 +142,7 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div className="bg-gradient-to-b from-teal-500 rounded-full w-64 h-80 relative overflow-hidden md:h-96 md:w-80">
+						<div className="flex-shrink-0 bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 relative overflow-hidden">
 							<Image
 								src={images.deved}
 								alt=""
