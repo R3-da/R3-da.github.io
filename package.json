@@ -33,6 +33,7 @@
     "eslint-config-next": "^12.3.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
+    "fluid-tailwind": "^1.0.4",
     "postcss": "^8.4.16",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.1.8",

@@ -95,12 +95,20 @@ export default function Home() {
 							</li>
 						</ul>
 					</nav> */}
-					<div className="rounded-lg flex flex-col-reverse gap-10 md:flex-row pt-10 px-10 items-center justify-center">
-						<div className="text-center">
-							<h2 className="text-5xl py-2 text-teal-600 font-serif dark:text-teal-400 md:text-6xl">
-								Haddan Reda
+					<div className="rounded-lg flex flex-col-reverse gap-4 md:gap-8 md:flex-row pt-10 px-10 items-center justify-center">
+						<div className="bg-red-500 text-center">
+							<h2 className="bg-blue-500">
+								<span className="whitespace-nowrap text-ellipsis ~text-4xl/6xl py-2 text-teal-600 font-serif dark:text-teal-400 tracking-wide">
+									Reda
+								</span>
+								<span className="whitespace-nowrap text-ellipsis ~text-4xl/6xl py-2 text-teal-600 font-serif dark:text-teal-400 tracking-wide">
+									{' '}
+								</span>
+								<span className="whitespace-nowrap text-ellipsis font-semibold ~text-4xl/6xl py-2 text-teal-600 font-serif dark:text-teal-400">
+									HADDAN
+								</span>
 							</h2>
-							<h3 className="text-3xl py-2 font-serif dark:text-white md:text-4xl">
+							<h3 className="whitespace-nowrap text-ellipsis ~text-2xl/4xl py-2 font-serif dark:text-white">
 								Mobile/Web Developer.
 							</h3>
 							<div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -142,13 +150,22 @@ export default function Home() {
 								</a>
 							</div>
 						</div>
-						<div className="flex-shrink-0 bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 sm:w-60 sm:h-60 md:w-80 md:h-80 relative overflow-hidden">
+						<div className="flex-shrink-0 bg-gradient-to-b from-teal-500 rounded-full ~w-60/80 ~h-60/80 relative overflow-hidden">
 							<Image
 								src={images.deved}
 								alt=""
 								layout="fill"
 								objectFit="cover"
 							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div className="bg-yellow-500 flex items-center justify-center w-full">
+						<div className="bg-red-500 flex-shrink p-2 max-w-full">
+							<h3 className="truncate font-serif dark:text-white overflow-hidden">
+								About Me
+							</h3>
 						</div>
 					</div>
 				</section>
