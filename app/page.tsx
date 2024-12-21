@@ -213,7 +213,7 @@ export default function Home() {
 							</div>
 							<div className="flex flex-col gap-8 lg:flex-row">
 								{/* First Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -229,24 +229,24 @@ export default function Home() {
 									</div>
 
 									{/* Right part */}
-									<div className="flex flex-1 flex-col items-center">
-										<h4 className="font-sans text-teal-600">
+									<div className="flex flex-1 flex-col items-center justify-center">
+										<h4 className="pb-4 font-sans text-teal-600">
 											Technologies I Use
 										</h4>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
 											Native Android Dev
 										</p>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
 											React Native
 										</p>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
+										<p className="font-mono text-gray-800 dark:text-white">
 											React JS
 										</p>
 									</div>
 								</div>
 
-								{/* First Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
+								{/* Second Item */}
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -262,32 +262,32 @@ export default function Home() {
 									</div>
 
 									{/* Right part */}
-									<div className="flex flex-1 flex-col items-center">
-										<h4 className="font-sans text-teal-600">
+									<div className="flex flex-1 flex-col items-center justify-center">
+										<h4 className="pb-4 font-sans text-teal-600">
 											Technologies I Use
 										</h4>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
-											Native Android Dev
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
+											Vue.js
 										</p>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
-											React Native
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
+											.NET
 										</p>
-										<p className="py-1 font-mono text-gray-800 dark:text-white">
-											React JS
+										<p className="font-mono text-gray-800 dark:text-white">
+											Laravel
 										</p>
 									</div>
 								</div>
 
-								{/* Second Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
+								{/* Third Item */}
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Row 1 */}
-									<div className="flex flex-col items-center justify-center">
+									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
 											src={images.design}
 											alt=""
 											width={100}
 											height={100}
-											className="h-auto w-auto object-contain"
+											className="max-h-none max-w-none object-contain"
 										/>
 										<h3 className="font-sans text-lg font-medium dark:text-white">
 											UI/UX
@@ -295,26 +295,32 @@ export default function Home() {
 									</div>
 
 									{/* Row 3 */}
-									<div className="flex flex-col items-center">
-										<h4 className="font-sans text-teal-600">
+									<div className="flex flex-1 flex-col items-center justify-center">
+										<h4 className="pb-4 font-sans text-teal-600">
 											Design Tools I Use
 										</h4>
-										<p className="py-1 font-mono dark:text-white">Photoshop</p>
-										<p className="py-1 font-mono dark:text-white">Figma</p>
-										<p className="py-1 font-mono dark:text-white">Adobe XD</p>
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
+											Figma
+										</p>
+										<p className="pb-2 font-mono text-gray-800 dark:text-white">
+											Adobe XD
+										</p>
+										<p className="font-mono text-gray-800 dark:text-white">
+											Photoshop
+										</p>
 									</div>
 								</div>
 
-								{/* Third Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
+								{/* Fourth Item */}
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Column 1 */}
-									<div className="flex flex-col items-center justify-center">
+									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
 											src={images.sound}
 											alt=""
 											width={100}
 											height={100}
-											className="h-auto w-auto object-contain"
+											className="max-h-none max-w-none object-contain"
 										/>
 										<h3 className="font-sans text-lg font-medium dark:text-white">
 											SOUND DESIGN
@@ -322,11 +328,13 @@ export default function Home() {
 									</div>
 
 									{/* Column 3 */}
-									<div className="flex flex-col items-center">
-										<h4 className="font-sans text-teal-600">
+									<div className="flex flex-1 flex-col items-center justify-center">
+										<h4 className="pb-4 font-sans text-teal-600">
 											DAW&apos;s I Use
 										</h4>
-										<p className="py-1 font-mono dark:text-white">FL Studio</p>
+										<p className="font-mono text-gray-800 dark:text-white">
+											FL Studio
+										</p>
 									</div>
 								</div>
 							</div>
