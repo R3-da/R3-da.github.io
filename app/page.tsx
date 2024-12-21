@@ -66,7 +66,9 @@ export default function Home() {
 		<div className={darkMode ? 'dark' : ''}>
 			<main className="bg-white ~/lg:~px-4/40 ~/lg:~py-8/16 dark:bg-gray-900">
 				<div className="absolute right-[5rem] top-[10rem] z-0 h-[21.25rem] w-[21.25rem] rounded-full bg-[#f82b32] blur-[10rem] dark:bg-[#946263]"></div>
+				{/* 
 				<div className="absolute right-[-35rem] top-[10rem] z-0 h-[21.25rem] w-[50rem] rounded-full bg-[#4536b9] blur-[10rem] dark:bg-[#676394]"></div>
+				 */}
 				<div className="relative">
 					<section>
 						{/* <nav className="py-10 mb-12 flex justify-between dark:text-white">
