@@ -210,7 +210,7 @@ export default function Home() {
 							</div>
 							<div className="flex flex-col gap-8 lg:flex-row">
 								{/* First Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-white lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -220,12 +220,12 @@ export default function Home() {
 											height={100}
 											className="h-auto w-auto object-contain"
 										/>
-										<h3 className="font-sans text-lg font-medium dark:text-gray-800">
+										<h3 className="font-sans text-lg font-medium dark:text-white">
 											ANDROID/WEB DEV
 										</h3>
 									</div>
 									{/* Middle part (hidden content) */}
-									<p className="hidden flex-1 font-sans dark:text-gray-800 sm:block">
+									<p className="hidden flex-1 font-sans dark:text-white sm:block">
 										Building clean architecture android Apps and Websites, and
 										making ideas come to life.
 									</p>
@@ -234,16 +234,20 @@ export default function Home() {
 										<h4 className="font-sans text-teal-600">
 											Technologies I Use
 										</h4>
-										<p className="py-1 font-mono text-gray-800">
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
 											Native Android Dev
 										</p>
-										<p className="py-1 font-mono text-gray-800">React Native</p>
-										<p className="py-1 font-mono text-gray-800">React JS</p>
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
+											React Native
+										</p>
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
+											React JS
+										</p>
 									</div>
 								</div>
 
 								{/* Second Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-white lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
 									{/* Row 1 */}
 									<div className="flex flex-col items-center justify-center">
 										<Image
@@ -253,12 +257,12 @@ export default function Home() {
 											height={100}
 											className="h-auto w-auto object-contain"
 										/>
-										<h3 className="font-sans text-lg font-medium dark:text-gray-800">
+										<h3 className="font-sans text-lg font-medium dark:text-white">
 											UI/UX
 										</h3>
 									</div>
 									{/* Row 2 */}
-									<p className="hidden font-sans dark:text-gray-800 sm:block">
+									<p className="hidden font-sans dark:text-white sm:block">
 										Creating elegant designs suited for each use case following
 										core design theory.
 									</p>
@@ -267,18 +271,14 @@ export default function Home() {
 										<h4 className="font-sans text-teal-600">
 											Design Tools I Use
 										</h4>
-										<p className="py-1 font-mono dark:text-gray-800">
-											Photoshop
-										</p>
-										<p className="py-1 font-mono dark:text-gray-800">Figma</p>
-										<p className="py-1 font-mono dark:text-gray-800">
-											Adobe XD
-										</p>
+										<p className="py-1 font-mono dark:text-white">Photoshop</p>
+										<p className="py-1 font-mono dark:text-white">Figma</p>
+										<p className="py-1 font-mono dark:text-white">Adobe XD</p>
 									</div>
 								</div>
 
 								{/* Third Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-white lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
 									{/* Column 1 */}
 									<div className="flex flex-col items-center justify-center">
 										<Image
@@ -288,13 +288,13 @@ export default function Home() {
 											height={100}
 											className="h-auto w-auto object-contain"
 										/>
-										<h3 className="font-sans text-lg font-medium dark:text-gray-800">
+										<h3 className="font-sans text-lg font-medium dark:text-white">
 											SOUND DESIGN
 										</h3>
 									</div>
 
 									{/* Column 2 */}
-									<p className="hidden font-sans dark:text-gray-800 sm:block">
+									<p className="hidden font-sans dark:text-white sm:block">
 										Sound design and music production.
 									</p>
 
@@ -303,7 +303,7 @@ export default function Home() {
 										<h4 className="font-sans text-teal-600">
 											DAW&apos;s I Use
 										</h4>
-										<p className="py-1 font-mono text-gray-800">FL Studio</p>
+										<p className="py-1 font-mono dark:text-white">FL Studio</p>
 									</div>
 								</div>
 							</div>
@@ -316,7 +316,7 @@ export default function Home() {
 									Portfolio
 								</h3>
 							</div>
-							<div className="flex flex-col gap-8 sm:grid sm:grid-cols-2 lg:flex lg:flex-row lg:gap-6">
+							<div className="grid grid-cols-2 flex-col gap-8 lg:flex lg:flex-row lg:gap-6">
 								{overlayImages.map((overlayImage, index) => (
 									<div className="relative flex-1" key={index}>
 										<div className="overflow-hidden rounded-lg">
