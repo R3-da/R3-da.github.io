@@ -4,8 +4,8 @@ import Image from 'next/image';
 export default function About() {
 	return (
 		<div className="mx-5 my-10">
-			<div className="flex flex-col items-center text-center mb-10">
-				<h1 className="font-serif text-4xl font-bold mb-2">
+			<div className="mb-10 flex flex-col items-center text-center">
+				<h1 className="mb-2 font-serif text-4xl font-bold">
 					Meet Kawtar
 					<span className="text-4xl leading-3 text-accent">.</span>
 				</h1>
@@ -23,8 +23,8 @@ export default function About() {
 				/>
 			</div>
 			<div></div>
-			<div className="lg:mx-56 px-4">
-				<h2 className="font-serif text-2xl font-bold mb-4">
+			<div className="px-4 lg:mx-56">
+				<h2 className="mb-4 font-serif text-2xl font-bold">
 					About Me
 					<span className="text-2xl leading-3 text-accent">.</span>
 				</h2>
@@ -70,11 +70,11 @@ export default function About() {
 					</a>{' '}
 					(just started btw), or taking care of my brand-new balcony garden.
 				</p>
-				<h2 className="font-serif text-2xl font-bold mt-12 mb-4">
+				<h2 className="mb-4 mt-12 font-serif text-2xl font-bold">
 					What can I help you with
 					<span className="text-2xl leading-3 text-accent">?</span>
 				</h2>
-				<ul className="list-disc ml-4">
+				<ul className="ml-4 list-disc">
 					<li>Software Development</li>
 					<li>Public Speaking</li>
 					<li>Content Creation</li>
@@ -83,7 +83,7 @@ export default function About() {
 					<li>Student life, Career Advice</li>
 					<li>...</li>
 				</ul>
-				<h2 className="font-serif text-2xl font-bold mt-12 mb-4">
+				<h2 className="mb-4 mt-12 font-serif text-2xl font-bold">
 					Follow Me on Socials
 					<span className="text-2xl leading-3 text-accent">.</span>
 				</h2>
@@ -95,7 +95,7 @@ export default function About() {
 					platforms under the username @choubari, or @choubari_ if the first one
 					is taken.
 				</p>
-				<h2 className="font-serif text-2xl font-bold mt-12 mb-6">
+				<h2 className="mb-6 mt-12 font-serif text-2xl font-bold">
 					Let<span className="text-2xl leading-3 text-accent">'</span>s build
 					something cool together
 					<span className="text-2xl leading-3 text-accent">!</span>

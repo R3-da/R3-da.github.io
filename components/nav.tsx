@@ -17,8 +17,8 @@ export function Nav() {
 			role="navigation"
 			aria-label="Header Navigation"
 		>
-			<div className="justify-between px-8 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-				<div className="flex items-center justify-between py-3 md:py-5 md:block">
+			<div className="mx-auto justify-between px-8 md:flex md:items-center md:px-8 lg:max-w-7xl">
+				<div className="flex items-center justify-between py-3 md:block md:py-5">
 					<Link href="/" aria-label="Choubari's Home Page">
 						{/* <Logo /> */}
 					</Link>
@@ -33,7 +33,7 @@ export function Nav() {
 							{navbar ? (
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="w-6 h-6 text-darker dark:text-light"
+									className="h-6 w-6 text-darker dark:text-light"
 									viewBox="0 0 20 20"
 									fill="currentColor"
 									aria-hidden="true"
@@ -47,7 +47,7 @@ export function Nav() {
 							) : (
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									className="w-6 h-6 text-accent"
+									className="h-6 w-6 text-accent"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -66,18 +66,18 @@ export function Nav() {
 				</div>
 				<div
 					id="navbar-multi-level"
-					className={`pb-3 mt-4 md:block md:pb-0 md:mt-0 ${
+					className={`mt-4 pb-3 md:mt-0 md:block md:pb-0 ${
 						navbar ? 'block' : 'hidden'
 					}`}
 				>
-					<ul className="items-center justify-center space-y-4 select-none md:flex md:space-x-6 md:space-y-0">
+					<ul className="select-none items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0">
 						{Navbar.map((link) => (
 							<li
 								className={`group font-serif ${
 									pathname == link.href
 										? 'text-darker dark:text-light'
 										: 'text-grey'
-								} font-bold text-xl hover:text-darker dark:hover:text-light`}
+								} text-xl font-bold hover:text-darker dark:hover:text-light`}
 								key={link.label}
 							>
 								<Link href={link.href} onClick={() => setNavbar(false)}>
@@ -99,7 +99,7 @@ export function Nav() {
 							}}
 						>
 							<MdLightMode
-								className="text-accent hidden dark:block"
+								className="hidden text-accent dark:block"
 								id="toggle-light-mode"
 								size={20}
 							/>

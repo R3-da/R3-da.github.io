@@ -15,7 +15,7 @@ export default function Footer() {
 	return (
 		<footer
 			role="contentinfo"
-			className="bg-lighter dark:bg-dark text-darker dark:text-light py-4 mt-20 w-full"
+			className="mt-20 w-full bg-lighter py-4 text-darker dark:bg-dark dark:text-light"
 		>
 			<Script
 				type="text/javascript"
@@ -23,7 +23,7 @@ export default function Footer() {
 				src="https://embeds.beehiiv.com/attribution.js"
 				strategy="lazyOnload"
 			></Script>
-			<div className="mx-auto px-8 pt-5 lg:px-8 lg:max-w-7xl grid grid-cols-1 md:grid-cols-12 gap-8">
+			<div className="mx-auto grid grid-cols-1 gap-8 px-8 pt-5 md:grid-cols-12 lg:max-w-7xl lg:px-8">
 				<div className="md:col-span-4 md:space-y-4">
 					<Link href="/" aria-label="Choubari's Home Page">
 						{/* <Logo /> */}
@@ -34,9 +34,9 @@ export default function Footer() {
 					</p>
 					{/* <NewsletterBox type={'slim'} /> */}
 				</div>
-				<div className="hidden md:block md:col-span-2 space-y-4"></div>
+				<div className="hidden space-y-4 md:col-span-2 md:block"></div>
 				<div className="md:col-span-2 md:space-y-4">
-					<h2 className="font-serif text-xl font-bold mb-2">
+					<h2 className="mb-2 font-serif text-xl font-bold">
 						General
 						<span className="text-4xl leading-3 text-accent">.</span>
 					</h2>
@@ -44,7 +44,7 @@ export default function Footer() {
 						{FooterAbout.map((link) => (
 							<li
 								key={link.label}
-								className="hover:underline hover:text-accent"
+								className="hover:text-accent hover:underline"
 							>
 								<Link href={link.href}>{link.label}</Link>
 							</li>
@@ -53,7 +53,7 @@ export default function Footer() {
 				</div>
 
 				<div className="md:col-span-2 md:space-y-4">
-					<h2 className="font-serif text-xl font-bold mb-2">
+					<h2 className="mb-2 font-serif text-xl font-bold">
 						Projects
 						<span className="text-4xl leading-3 text-accent">.</span>
 					</h2>
@@ -61,7 +61,7 @@ export default function Footer() {
 						{FooterProjects.map((link) => (
 							<li
 								key={link.label}
-								className="hover:underline hover:text-accent"
+								className="hover:text-accent hover:underline"
 							>
 								<Link href={link.href}>{link.label}</Link>
 							</li>
@@ -70,7 +70,7 @@ export default function Footer() {
 				</div>
 
 				<div className="md:col-span-2 md:space-y-4">
-					<h2 className="font-serif text-xl font-bold mb-2">
+					<h2 className="mb-2 font-serif text-xl font-bold">
 						Socials
 						<span className="text-4xl leading-3 text-accent">.</span>
 					</h2>
@@ -78,7 +78,7 @@ export default function Footer() {
 						{FooterSocials.map((link) => (
 							<li
 								key={link.label}
-								className="hover:underline hover:text-accent"
+								className="hover:text-accent hover:underline"
 							>
 								<Link href={link.href} target="_blank">
 									{link.label}
@@ -88,24 +88,24 @@ export default function Footer() {
 					</ul>
 				</div>
 			</div>
-			<hr className="h-px border-0 opacity-30 bg-grey mt-8 mb-4" />
-			<div className="flex flex-wrap px-5 gap-1 text-center items-center justify-center">
+			<hr className="mb-4 mt-8 h-px border-0 bg-grey opacity-30" />
+			<div className="flex flex-wrap items-center justify-center gap-1 px-5 text-center">
 				© {new Date().getFullYear()} Copyright. Made with ❤ by
-				<Link href={twitter} className="text-accent font-mono hover:underline">
+				<Link href={twitter} className="font-mono text-accent hover:underline">
 					@choubari_
 				</Link>
 				<p> using</p>
-				<div className="flex gap-1 items-center">
+				<div className="flex items-center gap-1">
 					<SiNextdotjs />
 					<SiTailwindcss />
 					<SiGithub />
 					<SiVercel />
 					<p>. </p>
 				</div>
-				<div className="flex gap-1 items-center">
+				<div className="flex items-center gap-1">
 					Proudly
 					<Link
-						className="hover:underline text-accent font-mono"
+						className="font-mono text-accent hover:underline"
 						href={githubrepo}
 					>
 						Open-Source
