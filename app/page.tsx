@@ -65,7 +65,7 @@ export default function Home() {
 
 	return (
 		<div className={darkMode ? 'dark' : ''}>
-			<main className="bg-white ~/lg:~px-4/40 ~/lg:~py-8/16 dark:bg-gray-900">
+			<main className="bg-white ~/lg:~px-4/40 ~/lg:~pt-10/20 ~/lg:~pb-10/20 dark:bg-gray-900">
 				<div className="absolute right-[5rem] top-[10rem] z-0 h-[21.25rem] w-[21.25rem] rounded-full bg-[#f82b32] blur-[10rem] dark:bg-[#946263]"></div>
 				{/* 
 				<div className="absolute right-[-35rem] top-[10rem] z-0 h-[21.25rem] w-[50rem] rounded-full bg-[#4536b9] blur-[10rem] dark:bg-[#676394]"></div>
@@ -205,9 +205,9 @@ export default function Home() {
 						</div>
 					</section> */}
 					<section>
-						<div className="mt-8 rounded-lg">
+						<div className="mt-14 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-6 font-sans text-3xl dark:text-white sm:text-4xl">
 									Skills
 								</h3>
 							</div>
@@ -341,9 +341,9 @@ export default function Home() {
 						</div>
 					</section>
 					<section>
-						<div className="mt-10 rounded-lg">
+						<div className="mt-14 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-6 font-sans text-3xl dark:text-white sm:text-4xl">
 									Portfolio
 								</h3>
 							</div>
