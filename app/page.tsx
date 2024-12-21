@@ -211,7 +211,7 @@ export default function Home() {
 									Skills
 								</h3>
 							</div>
-							<div className="flex flex-col gap-8 overflow-x-hidden md:grid md:grid-cols-2 md:grid-rows-2 lg:flex-row">
+							<div className="flex flex-col gap-8 overflow-x-hidden md:grid md:grid-cols-2 md:grid-rows-2">
 								{/* First Item */}
 								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 md:w-full lg:w-auto lg:grid-rows-2">
 									{/* Left part */}
