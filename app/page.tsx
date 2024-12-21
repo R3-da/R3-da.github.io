@@ -154,7 +154,7 @@ export default function Home() {
 					</section>
 					<section>
 						<div className="mt-8 rounded-lg">
-							<h3 className="pb-8 font-serif text-3xl dark:text-white sm:text-4xl">
+							<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 								Bio:
 							</h3>
 							<div className="flex flex-col gap-4">
@@ -167,7 +167,7 @@ export default function Home() {
 					<section>
 						<div className="mt-8 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-serif text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 									Companies
 								</h3>
 							</div>
@@ -184,7 +184,7 @@ export default function Home() {
 					<section>
 						<div className="mt-8 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-serif text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 									Featured Projects
 								</h3>
 							</div>
@@ -204,7 +204,7 @@ export default function Home() {
 					<section>
 						<div className="mt-8 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-serif text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 									Skills
 								</h3>
 							</div>
@@ -312,7 +312,7 @@ export default function Home() {
 					<section>
 						<div className="mt-10 rounded-lg">
 							<div>
-								<h3 className="pb-8 font-serif text-3xl dark:text-white sm:text-4xl">
+								<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 									Portfolio
 								</h3>
 							</div>
