@@ -314,7 +314,7 @@ export default function Home() {
 								{/* Fourth Item */}
 								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Column 1 */}
-									<div className="-mt-5 flex flex-1 flex-col items-center justify-center">
+									<div className="-mt-3 flex flex-1 flex-col items-center justify-center">
 										<Image
 											src={images.sound}
 											alt=""
