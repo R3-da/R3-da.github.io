@@ -15,10 +15,11 @@ export default function Home() {
 	const [darkMode, setDarkMode] = useState(true);
 
 	const images = {
-		deved: '/dev-ed-wave.png',
-		code: '/code.png',
-		design: '/design.png',
-		consulting: '/consulting.png',
+		profile: '/profile.png',
+		mobileDev: '/skills/mobile-dev.png',
+		webDev: '/skills/web-dev.png',
+		design: '/skills/design.png',
+		sound: '/skills/sound.png',
 		web1: '/web1.png',
 		web2: '/web2.png',
 		web3: '/web3.png',
@@ -146,7 +147,7 @@ export default function Home() {
 							</div>
 							<div className="relative flex-shrink-0 overflow-hidden rounded-full border-4 border-blue-600 bg-gradient-to-b from-blue-500 ~/lg:~h-40/60 ~/lg:~w-40/60 dark:border-blue-400">
 								<Image
-									src={images.deved}
+									src={images.profile}
 									alt=""
 									layout="fill"
 									objectFit="cover"
@@ -216,21 +217,50 @@ export default function Home() {
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
-											src={images.code}
+											src={images.mobileDev}
 											alt=""
 											width={100}
 											height={100}
 											className="h-auto w-auto object-contain"
 										/>
 										<h3 className="font-sans text-lg font-medium dark:text-white">
-											ANDROID/WEB DEV
+											MOBILE DEVELOPMENT
 										</h3>
 									</div>
-									{/* Middle part (hidden content) */}
-									<p className="hidden flex-1 font-sans dark:text-white sm:block">
-										Building clean architecture android Apps and Websites, and
-										making ideas come to life.
-									</p>
+
+									{/* Right part */}
+									<div className="flex flex-1 flex-col items-center">
+										<h4 className="font-sans text-teal-600">
+											Technologies I Use
+										</h4>
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
+											Native Android Dev
+										</p>
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
+											React Native
+										</p>
+										<p className="py-1 font-mono text-gray-800 dark:text-white">
+											React JS
+										</p>
+									</div>
+								</div>
+
+								{/* First Item */}
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
+									{/* Left part */}
+									<div className="flex flex-1 flex-col items-center justify-center">
+										<Image
+											src={images.webDev}
+											alt=""
+											width={100}
+											height={100}
+											className="h-auto w-auto object-contain"
+										/>
+										<h3 className="font-sans text-lg font-medium dark:text-white">
+											WEB DEVELOPMENT
+										</h3>
+									</div>
+
 									{/* Right part */}
 									<div className="flex flex-1 flex-col items-center">
 										<h4 className="font-sans text-teal-600">
@@ -263,11 +293,7 @@ export default function Home() {
 											UI/UX
 										</h3>
 									</div>
-									{/* Row 2 */}
-									<p className="hidden font-sans dark:text-white sm:block">
-										Creating elegant designs suited for each use case following
-										core design theory.
-									</p>
+
 									{/* Row 3 */}
 									<div className="flex flex-col items-center">
 										<h4 className="font-sans text-teal-600">
@@ -284,7 +310,7 @@ export default function Home() {
 									{/* Column 1 */}
 									<div className="flex flex-col items-center justify-center">
 										<Image
-											src={images.consulting}
+											src={images.sound}
 											alt=""
 											width={100}
 											height={100}
@@ -294,11 +320,6 @@ export default function Home() {
 											SOUND DESIGN
 										</h3>
 									</div>
-
-									{/* Column 2 */}
-									<p className="hidden font-sans dark:text-white sm:block">
-										Sound design and music production.
-									</p>
 
 									{/* Column 3 */}
 									<div className="flex flex-col items-center">
