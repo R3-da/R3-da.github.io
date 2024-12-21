@@ -152,7 +152,7 @@ export default function Home() {
 							</div>
 						</div>
 					</section>
-					<section>
+					{/* <section>
 						<div className="mt-8 rounded-lg">
 							<h3 className="pb-8 font-sans text-3xl dark:text-white sm:text-4xl">
 								Bio:
@@ -200,7 +200,7 @@ export default function Home() {
 								</div>
 							</div>
 						</div>
-					</section>
+					</section> */}
 					<section>
 						<div className="mt-8 rounded-lg">
 							<div>
@@ -210,7 +210,7 @@ export default function Home() {
 							</div>
 							<div className="flex flex-col gap-8 lg:flex-row">
 								{/* First Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -247,7 +247,7 @@ export default function Home() {
 								</div>
 
 								{/* Second Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
 									{/* Row 1 */}
 									<div className="flex flex-col items-center justify-center">
 										<Image
@@ -278,7 +278,7 @@ export default function Home() {
 								</div>
 
 								{/* Third Item */}
-								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-gray-800 lg:grid-rows-3">
+								<div className="grid flex-1 gap-10 rounded-xl p-10 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-3">
 									{/* Column 1 */}
 									<div className="flex flex-col items-center justify-center">
 										<Image
