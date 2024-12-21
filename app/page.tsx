@@ -211,9 +211,9 @@ export default function Home() {
 									Skills
 								</h3>
 							</div>
-							<div className="flex flex-col gap-8 lg:flex-row">
+							<div className="flex flex-col gap-8 overflow-x-hidden md:grid md:grid-cols-2 md:grid-rows-2 lg:flex-row">
 								{/* First Item */}
-								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 md:w-full lg:w-auto lg:grid-rows-2">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -246,7 +246,7 @@ export default function Home() {
 								</div>
 
 								{/* Second Item */}
-								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 md:w-full lg:w-auto lg:grid-rows-2">
 									{/* Left part */}
 									<div className="flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -279,7 +279,7 @@ export default function Home() {
 								</div>
 
 								{/* Third Item */}
-								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 md:w-full lg:w-auto lg:grid-rows-2">
 									{/* Row 1 */}
 									<div className="-mt-7 flex flex-1 flex-col items-center justify-center">
 										<Image
@@ -312,7 +312,7 @@ export default function Home() {
 								</div>
 
 								{/* Fourth Item */}
-								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
+								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 md:w-full lg:w-auto lg:grid-rows-2">
 									{/* Column 1 */}
 									<div className="-mt-3 flex flex-1 flex-col items-center justify-center">
 										<Image
