@@ -281,12 +281,12 @@ export default function Home() {
 								{/* Third Item */}
 								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Row 1 */}
-									<div className="flex flex-1 flex-col items-center justify-center">
+									<div className="-mt-7 flex flex-1 flex-col items-center justify-center">
 										<Image
 											src={images.design}
 											alt=""
-											width={100}
-											height={100}
+											width={150}
+											height={150}
 											className="max-h-none max-w-none object-contain"
 										/>
 										<h3 className="font-sans text-lg font-medium dark:text-white">
@@ -314,12 +314,12 @@ export default function Home() {
 								{/* Fourth Item */}
 								<div className="grid flex-1 gap-10 rounded-xl px-10 py-8 text-center shadow-lg dark:bg-slate-800 lg:grid-rows-2">
 									{/* Column 1 */}
-									<div className="flex flex-1 flex-col items-center justify-center">
+									<div className="-mt-5 flex flex-1 flex-col items-center justify-center">
 										<Image
 											src={images.sound}
 											alt=""
-											width={100}
-											height={100}
+											width={120}
+											height={120}
 											className="max-h-none max-w-none object-contain"
 										/>
 										<h3 className="font-sans text-lg font-medium dark:text-white">
