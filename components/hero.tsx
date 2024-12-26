@@ -21,7 +21,7 @@ export default function Hero({ profileImage }: HeroProps) {
 					</h3>
 					<div className="flex justify-center py-3 text-gray-600 ~/lg:~text-2xl/3xl ~/lg:~gap-4/8 dark:text-gray-400">
 						<a
-							href="https://www.linkedin.com/in/r-h-7zh"
+							href="https://www.linkedin.com/in/reda-dev"
 							target="_blank"
 							rel="noopener noreferrer"
 							onClick={() => {
