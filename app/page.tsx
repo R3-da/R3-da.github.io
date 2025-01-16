@@ -33,12 +33,12 @@ export default function Home() {
 		{
 			image: images.mobileDev,
 			title: 'MOBILE DEVELOPMENT',
-			technologies: ['Native Android Dev', 'React Native', 'React JS'],
+			technologies: ['Native Android Dev', 'React Native'],
 		},
 		{
 			image: images.webDev,
 			title: 'WEB DEVELOPMENT',
-			technologies: ['Vue.js', '.NET', 'Laravel'],
+			technologies: ['Vue.js', 'React JS', '.NET', 'Laravel'],
 		},
 		{
 			image: images.design,
